@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+<meta charset="UTF-8">
+<meta name = "viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Antojitos ALKASE-Contacto</title>
+<link rel="icon" type="image/png" href="faviconMed.png">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="stylesheet" href="contacto.css">
+    </head> 
+    <body>
+<header>
+    <div class="header-text">
+<h1>Antojitos ALKASE</h1>
+<p>El autentico sazón de Sinaloa hasta tu mesa</p>
+    </div>
+<img src="Logo.png" alt="logo ALKASE">
+</header>
+<nav>
+<a href="Index.html">Inicio</a>
+<a href="Menu.html">Menu</a>
+<a href="nosotros.html">Sobre Nosotros</a>
+<a href="contacto.html">Contactanos</a>
+</nav>
+<h2>CONTÁCTANOS</h2>
+
+<!-- Formulario de Contacto -->
+<div class="formulario">
+    <form action="enviar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<!-- Mapa de Ubicación -->
+<div class="mapa">
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.6186486033484!2d-104.63713432397083!3d24.044509477420483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869bb7b60f1c2053%3A0x618d928d4b30a2b3!2sMadreselva%20146%2C%20Jardines%20de%20Durango%2C%2034200%20Durango%2C%20Dgo.!5e0!3m2!1ses!2smx!4v1742796221691!5m2!1ses!2smx" 
+        width="400" 
+        height="300" 
+        style="border:0;"
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe> 
+</div>
+
+<!-- Redes Sociales -->
+<div class="redes">
+    <a href="https://www.facebook.com/share/1BWc8c3i2p/?mibextid=wwXIfr" target="_blank">facebook</a>
+        <img src="facebook.png" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/" target="_blank">WhatsApp</a> <!--Ajustar esto para que te mande a wasap-->
+        <img src="whatsapp.png" alt="WhatsApp">
+    </a>
+</div>
+
+<!-- Teléfono -->
+<div class="telefono">
+    <img src="telefono.png" alt="Teléfono">
+    <span>123 456 7890</span>
+</div>
+
+<footer>
+<p>2025 Antojitos ALKASE todos los derechos reservados</p>
+<p>Visitanos en nuestras redes sociales:</p>
+<a href="https://www.facebook.com/share/1BWc8c3i2p/?mibextid=wwXIfr" target="_blank">facebook</a>
+<a href="https://www.instagram.com/" target="_blank">WhatsApp</a> <!--Ajustar esto para que te mande a wasap-->
+</footer>
+    </body>
+</html>

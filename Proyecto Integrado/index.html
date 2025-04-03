@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Antojitos ALKASE - Comida tradicional de Sinaloa</title>
+    <title>Antojitos ALKASE- Comida tradicional de Sinaloa</title>
     <link rel="icon" type="image/png" href="faviconMed.png">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="favicon.png">
     <link rel="stylesheet" href="inicio.css">
 </head>
 <body>
+    <div class="mobile-menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
     <header>
         <div class="header-text">
             <h1>Antojitos ALKASE</h1>
@@ -32,12 +35,12 @@
         <section class="hero">
             <div class="carousel-container">
                 <div class="carousel-images">
-                    <img src="imagen1.1.jpg" alt="Plato 1 - Tacos dorados">
-                    <img src="imagen2.1.jpg" alt="Plato 2 - Sopes tradicionales">
-                    <img src="imagen3.1.jpg" alt="Plato 3 - Gringas">
-                    <img src="imagen4.1.jpg" alt="Plato 4 - Hamburguesas">
-                    <img src="imagen5.1.jpg" alt="Plato 5 - Tortas">
-                    <img src="imagen6.1.jpg" alt="Plato 6 - Combo familiar">
+                    <img src="imagen1.1.jpg" alt="Plato 1">
+                    <img src="imagen2.1.jpg" alt="Plato 2">
+                    <img src="imagen3.1.jpg" alt="Plato 3">
+                    <img src="imagenFlautas1.jpg" alt="Plato 4">
+                    <img src="imagenTacosAsa.jpg" alt="Plato 5">
+                    <img src="imagen6.1.jpg" alt="Plato 6">
                 </div>
             </div>
         </section>
@@ -45,7 +48,7 @@
         <section class="menu-section">
             <h2>Nuevos Agregados</h2>
             <div class="menu-item">
-                <img src="imagenHamburg.jpg" alt="Hamburguesa ALKASE" loading="lazy">
+                <a href="menu.html"><img src="imagenHamburg.jpg" alt="Hamburguesa ALKASE" loading="lazy"></a>
                 <div class="menu-info">
                     <h3>Hamburguesas</h3>
                     <p>La clásica hamburguesa de res, preparada con una jugosa carne a la parrilla, servida en un esponjoso pan. Acompañada de las verduras de tu elección: tomate fresco, lechuga crujiente, cebolla y aguacate, como complemento perfecto, crujientes papas fritas.</p>
@@ -54,7 +57,7 @@
             </div>
             
             <div class="menu-item">
-                <img src="imagenTorta.jpg" alt="Torta ALKASE" loading="lazy">
+                <a href="menu.html"><img src="imagenTorta.jpg" alt="Torta ALKASE" loading="lazy"></a>
                 <div class="menu-info">
                     <h3>Tortas</h3>
                     <p>Una deliciosa torta de jamón servida en un pan crujiente por fuera y suave por dentro, rellena de jamón de pavo. Acompañada de frescas verduras a tu elección: jugoso tomate, lechuga crujiente, cebolla y aguacate.</p>
@@ -65,7 +68,7 @@
             <h2>Platillos populares</h2>
             
             <div class="menu-item">
-                <img src="imagenTacos.jpg" alt="Tacos Dorados ALKASE" loading="lazy">
+                <a href="menu.html"><img src="imagenTacos.jpg" alt="Tacos Dorados ALKASE" loading="lazy"></a>
                 <div class="menu-info">
                     <h3>Tacos Dorados</h3>
                     <p>Crujientes tacos dorados rellenos de jugosa carne deshebrada, servidos con queso fresco. Acompañados de un rico consomé y una selección de verduras frescas: lechuga, cebolla morada, zanahoria rallada para un toque de frescura y finas rodajas de pepino.</p>
@@ -74,7 +77,7 @@
             </div>
             
             <div class="menu-item">
-                <img src="imagenSopes.jpg" alt="Sopes ALKASE" loading="lazy">
+                <a href="menu.html"><img src="imagenSopes.jpg" alt="Sopes ALKASE" loading="lazy"></a>
                 <div class="menu-info">
                     <h3>Sopes</h3>
                     <p>Sopes de maíz dorados, coronados con una suave cama de frijoles y jugosa carne deshebrada. Acompañados de consomé y una selección de ingredientes frescos: lechuga, cebolla morada, zanahoria rallada y finas rodajas de pepino. Finalizados con queso fresco.</p>
@@ -83,7 +86,7 @@
             </div>
             
             <div class="menu-item">
-                <img src="imagenGringa.jpg" alt="Gringas ALKASE" loading="lazy">
+                <a href="menu.html"><img src="imagenGringa.jpg" alt="Gringas ALKASE" loading="lazy"></a>
                 <div class="menu-info">
                     <h3>Gringas</h3>
                     <p>Una tortilla de harina recién hecha, que envuelve una irresistible combinación de queso derretido y jugosa carne asada, cocinada a la perfección. Acompañada de cebolla caramelizada y rebanadas de aguacate.</p>
@@ -97,7 +100,7 @@
             <p>Haz tu pedido ahora o visítanos en nuestro local</p>
             <div class="cta-buttons">
                 <a href="tel:+52 618 507 6123" class="cta-button phone"><i class="fas fa-phone"></i> Llamar ahora</a>
-                <a href="https://wa.me/5211234567890" class="cta-button whatsapp"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
+                <a href="https://wa.me/526185076123" class="cta-button whatsapp"><i class="fab fa-whatsapp"></i> Pedir por WhatsApp</a>
             </div>
         </section>
     </main>
@@ -136,11 +139,12 @@
                 <a href="https://www.facebook.com/profile.php?id=61570674651778" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://wa.me/5211234567890" target="_blank" aria-label="WhatsApp" rel="noopener noreferrer">
+                <a href="https://wa.me/526185076123" target="_blank" aria-label="WhatsApp" rel="noopener noreferrer">
                     <i class="fab fa-whatsapp"></i>
                 </a>
             </div>
         </div>
     </footer>
+    <script src="inicio.js"></script>
 </body>
 </html>
